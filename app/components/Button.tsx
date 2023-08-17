@@ -46,4 +46,3 @@ const Button: React.FC<ButtonProps> = ({
 
 export default Button;
 
-// This is used to design the button, making it interactive

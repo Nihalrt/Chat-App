@@ -12,19 +12,35 @@ interface ButtonProps{
     disabled?: boolean;
 }
 
-const Button: React.FC<ButtonProps> = ({
-    type,
-    fullWidth,
-    children,
-    onClick,
-    secondary,
-    danger,
-    disabled
+const Button: React.FC<> = ({
+    // type,
+    // fullWidth,
+    // children,
+    // onClick,
+    // secondary,
+    // danger,
+    // disabled
 }) => {
     return(
-        <div>
-            Hi Button
-        </div>
+        <button
+         onClick={onClick}
+         type={type}
+         disabled={disabled}
+         className={clsx(`
+          flex
+          justify-center
+          rounded-md
+          px-3
+          py-2
+          text-sm
+          font-semibold
+          focus
+
+         `)}
+        
+        >
+
+        </button>
     )
 }
 

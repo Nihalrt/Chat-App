@@ -12,14 +12,14 @@ interface ButtonProps{
     disabled?: boolean;
 }
 
-const Button: React.FC<> = ({
-    // type,
-    // fullWidth,
-    // children,
-    // onClick,
-    // secondary,
-    // danger,
-    // disabled
+const Button: React.FC<ButtonProps> = ({
+    type,
+    fullWidth,
+    children,
+    onClick,
+    secondary,
+    danger,
+    disabled
 }) => {
     return(
         <button
@@ -45,3 +45,5 @@ const Button: React.FC<> = ({
 }
 
 export default Button;
+
+// This is used to design the button, making it interactive

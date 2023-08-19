@@ -17,7 +17,7 @@ export default function Home() {
     >
         <div className="sm:mx-auto sm:w-full sm:max-w-md
         ">
-          <Image alt="logo" height="48" width="48" className="mx-auto w-auto" src="/images/uvic-logo.png"></Image>
+          <Image alt="logo" height="68" width="68" className="mx-auto w-auto" src="/images/uvic-logo.png"></Image>
           <h2 
            className='
             mt-6
